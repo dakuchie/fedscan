@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+data/repos/
+data/gh_repos/
+data/*.jsonl
+data/*.errors
+data/.pseudonym_key
+*.docx
+*.pdf

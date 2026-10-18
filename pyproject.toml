@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fedscan"
+version = "0.1.0"
+description = "Static analyzer for CI/CD-to-cloud OIDC workload identity federation trust conditions"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "python-hcl2>=4.3",   # 8.x recommended: parses far more modern Terraform than 4.x
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+fedscan = "fedscan.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["fedscan*"]

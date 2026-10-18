@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use FedScan or its dataset, please cite the software and the accompanying article."
+title: "FedScan: static analysis of CI/CD-to-cloud OIDC workload identity federation trust conditions"
+type: software
+version: 0.1.0
+date-released: "2026-10-18"
+license: Apache-2.0
+repository-code: "https://github.com/dakuchie/fedscan"
+authors:
+  - family-names: Akuchie
+    given-names: David
+    affiliation: "Independent Researcher"
+keywords:
+  - software supply chain security
+  - CI/CD
+  - OpenID Connect
+  - workload identity federation
+  - cloud IAM
+  - infrastructure as code
+  - static analysis
+preferred-citation:
+  type: article
+  title: "Trusting the Pipeline: Measuring OIDC Workload Identity Federation Misconfigurations Across AWS, Azure and Google Cloud"
+  authors:
+    - family-names: Akuchie
+      given-names: David
+  status: submitted

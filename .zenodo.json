@@ -1,0 +1,15 @@
+{
+  "title": "FedScan: static analysis of CI/CD-to-cloud OIDC workload identity federation trust conditions (software and pseudonymised dataset)",
+  "upload_type": "software",
+  "description": "<p>FedScan is an open-source static analyser for OpenID Connect (OIDC) workload identity federation trust conditions in Terraform, OpenTofu and CloudFormation (AWS IAM, Microsoft Entra ID, Google Cloud). It implements an eleven-class taxonomy of tenant-boundary, scope and hygiene flaws and emits JSON Lines or SARIF.</p><p>This archive also contains the measurement and analysis pipeline and the pseudonymised binding-level dataset that accompany the article <i>Trusting the Pipeline: Measuring OIDC Workload Identity Federation Misconfigurations Across AWS, Azure and Google Cloud</i>. Repository identifiers are pseudonymised with a keyed hash; file paths and resource names are withheld.</p>",
+  "creators": [
+    {"name": "Akuchie, David", "affiliation": "Independent Researcher"}
+  ],
+  "license": "Apache-2.0",
+  "access_right": "open",
+  "keywords": ["software supply chain security", "CI/CD", "OpenID Connect", "workload identity federation",
+               "cloud IAM", "infrastructure as code", "static analysis", "GitHub Actions"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/dakuchie/fedscan", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}
